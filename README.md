@@ -159,15 +159,59 @@ aws iam get-policy-version --policy-arn arn:aws:iam::038946776283:policy/lab_pol
 
 ## 📸 Capturas de Tela do Processo
 
-### 1. Arquitetura do Laboratório
+### 1. Tela Inicial
+![Tela 1](1.jpg)
+*Tela inicial do ambiente de configuração*
+
+### 2. Configuração Inicial
+![Tela 2](2.jpg)
+*Configurações iniciais do ambiente*
+
+### 3. Configuração de Rede
+![Tela 3](3.jpg)
+*Configurações de rede da instância*
+
+### 4. Armazenamento
+![Tela 4](4.jpg)
+*Configurações de armazenamento*
+
+### 5. Tags
+![Tela 5](5.jpg)
+*Configuração de tags*
+
+### 6. Grupos de Segurança
+![Tela 6](6.jpg)
+*Configuração de grupos de segurança*
+
+### 7. Revisão
+![Tela 7](7.jpg)
+*Tela de revisão das configurações*
+
+### 8. Par de Chaves
+![Tela 8](8.jpg)
+*Criação de par de chaves*
+
+### 9. Instância em Execução
+![Tela 9](9.jpg)
+*Instância em execução no console*
+
+### 10. Detalhes da Instância
+![Tela 10](10.jpg)
+*Detalhes da instância em execução*
+
+### 11. Status da Instância
+![Tela 11](11.jpg)
+*Status detalhado da instância*
+
+### 12. Arquitetura do Laboratório
 ![Arquitetura AWS](images/aws-architecture-diagram.png)
 *Diagrama da arquitetura do laboratório mostrando VPC, instância EC2 e conexão SSH*
 
-### 2. Conexão SSH e Acesso à Instância
+### 13. Conexão SSH e Acesso à Instância
 ![Conexão SSH](images/ssh-connection.png)
 *Estabelecendo conexão SSH com a instância Red Hat EC2*
 
-### 3. Download e Instalação da AWS CLI
+### 14. Download e Instalação da AWS CLI
 ![Download AWS CLI](images/download-awscli.png)
 *Download do arquivo de instalação da AWS CLI usando curl*
 
@@ -177,15 +221,15 @@ aws iam get-policy-version --policy-arn arn:aws:iam::038946776283:policy/lab_pol
 ![Instalação Completa](images/install-awscli-2.png)
 *Instalação completa com verificação de versão*
 
-### 4. Interface do AWS Management Console
+### 15. Interface do AWS Management Console
 ![AWS Console](images/aws-console-iam.png)
 *Interface do AWS Management Console mostrando configurações do IAM*
 
-### 5. Configuração da AWS CLI
+### 16. Configuração da AWS CLI
 ![Help AWS CLI](images/aws-help.png)
 *Visualizando a documentação de ajuda da AWS CLI*
 
-### 6. Comandos IAM via CLI
+### 17. Comandos IAM via CLI
 ![Comandos IAM](images/iam-commands.png)
 *Executando comandos do IAM via AWS CLI*
 
