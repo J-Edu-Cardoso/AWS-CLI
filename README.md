@@ -135,37 +135,55 @@ aws iam get-policy-version --policy-arn arn:aws:iam::038946776283:policy/lab_pol
 
 ## 📸 Capturas de Tela do Processo
 
-> **Nota**: Substitua os nomes das imagens pelos arquivos reais do seu repositório
+### 1. Diagrama de Arquitetura AWS
+![Arquitetura](1.jpg)
 
-![Imagem 1](1.jpg)
-*Descrição da primeira etapa*
+*Diagrama mostrando VPC, instância EC2 Red Hat e conexão SSH*
 
-![Imagem 2](2.jpg)
-*Descrição da segunda etapa*
+### 2. Conexão SSH Inicial
+![SSH Connection](2.jpg)
 
-![Imagem 3](3.jpg)
-*Descrição da terceira etapa*
+*Estabelecendo conexão SSH com a instância EC2 usando chave privada*
 
-![Imagem 4](4.jpg)
-*Descrição da quarta etapa*
+### 3. Download da AWS CLI
+![Curl Download](3.jpg)
 
-![Imagem 5](5.jpg)
-*Descrição da quinta etapa*
+*Executando comando `curl` para baixar o instalador da AWS CLI*
 
-![Imagem 6](6.jpg)
-*Descrição da sexta etapa*
+### 4. Instalação da AWS CLI - Parte 1
+![Install Process 1](4.jpg)
 
-![Imagem 7](7.jpg)
-*Descrição da sétima etapa*
+*Processo de descompactação do arquivo `awscliv2.zip` com comando `unzip`*
 
-![Imagem 8](8.jpg)
-*Descrição da oitava etapa*
+### 5. Instalação da AWS CLI - Parte 2
+![Install Process 2](5.jpg)
 
-![Imagem 9](9.jpg)
-*Descrição da nona etapa*
+*Executando `sudo ./aws/install` para instalar a AWS CLI*
 
-![Imagem 10](10.jpg)
-*Descrição da décima etapa*
+### 6. Verificação da Instalação
+![AWS Version](6.jpg)
+
+*Comando `aws --version` mostrando versão instalada da AWS CLI*
+
+### 7. AWS CLI Help
+![AWS Help](7.jpg)
+
+*Comando `aws help` exibindo documentação da AWS CLI*
+
+### 8. Console IAM do AWS
+![IAM Console](8.jpg)
+
+*Interface do AWS Management Console mostrando configurações do IAM*
+
+### 9. Listagem de Políticas IAM
+![IAM List Policies](9.jpg)
+
+*Comando `aws iam list-policies --scope Local` listando políticas locais*
+
+### 10. Política JSON Completa
+![Policy JSON](10.jpg)
+
+*Conteúdo completo da política `lab_policy` em formato JSON*
 
 ## ✅ Verificação de Sucesso
 
