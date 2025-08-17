@@ -2,30 +2,6 @@
 
 Este repositório contém um guia prático para instalação e configuração da AWS CLI em uma instância Red Hat Linux no Amazon EC2.
 
-## 📁 Estrutura do Repositório
-
-```
-aws-cli-lab-guide/
-├── README.md                     # Este guia principal
-├── images/                       # Capturas de tela do laboratório
-│   ├── aws-architecture-diagram.png
-│   ├── ssh-connection.png
-│   ├── download-awscli.png
-│   ├── install-awscli-1.png
-│   ├── install-awscli-2.png
-│   ├── aws-console-iam.png
-│   ├── aws-help.png
-│   ├── iam-commands.png
-│   ├── list-policies.png
-│   └── policy-json.png
-├── scripts/                      # Scripts auxiliares
-│   ├── install-awscli.sh        # Script automatizado de instalação
-│   └── configure-cli.sh         # Script de configuração
-└── docs/                        # Documentação adicional
-    ├── troubleshooting.md       # Guia de resolução de problemas
-    └── advanced-commands.md     # Comandos avançados da AWS CLI
-```
-
 ## 📋 Visão Geral
 
 Este laboratório ensina como:
@@ -159,85 +135,37 @@ aws iam get-policy-version --policy-arn arn:aws:iam::038946776283:policy/lab_pol
 
 ## 📸 Capturas de Tela do Processo
 
-### 1. Tela Inicial
-![Tela 1](1.jpg)
-*Tela inicial do ambiente de configuração*
+> **Nota**: Substitua os nomes das imagens pelos arquivos reais do seu repositório
 
-### 2. Configuração Inicial
-![Tela 2](2.jpg)
-*Configurações iniciais do ambiente*
+![Imagem 1](1.png)
+*Descrição da primeira etapa*
 
-### 3. Configuração de Rede
-![Tela 3](3.jpg)
-*Configurações de rede da instância*
+![Imagem 2](2.png)
+*Descrição da segunda etapa*
 
-### 4. Armazenamento
-![Tela 4](4.jpg)
-*Configurações de armazenamento*
+![Imagem 3](3.png)
+*Descrição da terceira etapa*
 
-### 5. Tags
-![Tela 5](5.jpg)
-*Configuração de tags*
+![Imagem 4](4.png)
+*Descrição da quarta etapa*
 
-### 6. Grupos de Segurança
-![Tela 6](6.jpg)
-*Configuração de grupos de segurança*
+![Imagem 5](5.png)
+*Descrição da quinta etapa*
 
-### 7. Revisão
-![Tela 7](7.jpg)
-*Tela de revisão das configurações*
+![Imagem 6](6.png)
+*Descrição da sexta etapa*
 
-### 8. Par de Chaves
-![Tela 8](8.jpg)
-*Criação de par de chaves*
+![Imagem 7](7.png)
+*Descrição da sétima etapa*
 
-### 9. Instância em Execução
-![Tela 9](9.jpg)
-*Instância em execução no console*
+![Imagem 8](8.png)
+*Descrição da oitava etapa*
 
-### 10. Detalhes da Instância
-![Tela 10](10.jpg)
-*Detalhes da instância em execução*
+![Imagem 9](9.png)
+*Descrição da nona etapa*
 
-### 11. Status da Instância
-![Tela 11](11.jpg)
-*Status detalhado da instância*
-
-### 12. Arquitetura do Laboratório
-![Arquitetura AWS](images/aws-architecture-diagram.png)
-*Diagrama da arquitetura do laboratório mostrando VPC, instância EC2 e conexão SSH*
-
-### 13. Conexão SSH e Acesso à Instância
-![Conexão SSH](images/ssh-connection.png)
-*Estabelecendo conexão SSH com a instância Red Hat EC2*
-
-### 14. Download e Instalação da AWS CLI
-![Download AWS CLI](images/download-awscli.png)
-*Download do arquivo de instalação da AWS CLI usando curl*
-
-![Instalação AWS CLI](images/install-awscli-1.png)
-*Processo de descompactação e instalação da AWS CLI*
-
-![Instalação Completa](images/install-awscli-2.png)
-*Instalação completa com verificação de versão*
-
-### 15. Interface do AWS Management Console
-![AWS Console](images/aws-console-iam.png)
-*Interface do AWS Management Console mostrando configurações do IAM*
-
-### 16. Configuração da AWS CLI
-![Help AWS CLI](images/aws-help.png)
-*Visualizando a documentação de ajuda da AWS CLI*
-
-### 17. Comandos IAM via CLI
-![Comandos IAM](images/iam-commands.png)
-*Executando comandos do IAM via AWS CLI*
-
-![Lista de Políticas](images/list-policies.png)
-*Listando políticas do IAM usando aws iam list-policies*
-
-![Política JSON](images/policy-json.png)
-*Visualizando o conteúdo da política lab_policy em formato JSON*
+![Imagem 10](10.png)
+*Descrição da décima etapa*
 
 ## ✅ Verificação de Sucesso
 
@@ -318,35 +246,3 @@ aws iam list-users --region us-west-2
 - **Região**: Mantenha consistência na região configurada
 - **Versionamento**: A AWS CLI é atualizada frequentemente
 - **Documentação**: Use `aws help` para obter ajuda contextual
-
-## 🤝 Como Contribuir
-
-Contribuições são bem-vindas! Para contribuir com este projeto:
-
-1. **Fork** este repositório
-2. Crie uma **branch** para sua feature (`git checkout -b feature/nova-funcionalidade`)
-3. **Commit** suas mudanças (`git commit -m 'Adiciona nova funcionalidade'`)
-4. **Push** para a branch (`git push origin feature/nova-funcionalidade`)
-5. Abra um **Pull Request**
-
-### Tipos de Contribuições
-- 📝 Melhorias na documentação
-- 🐛 Correções de bugs
-- ✨ Novas funcionalidades
-- 🖼️ Atualizações de imagens
-- 🔧 Scripts auxiliares
-
-## 📄 Licença
-
-Este projeto está licenciado sob a [MIT License](LICENSE) - veja o arquivo LICENSE para detalhes.
-
-## 👥 Autores
-
-- **Seu Nome** - *Trabalho inicial* - [@seu-usuario](https://github.com/seu-usuario)
-
-## 🔗 Links Úteis
-
-- [AWS CLI Installation Guide](https://docs.aws.amazon.com/cli/latest/userguide/getting-started-install.html)
-- [AWS CLI Configuration](https://docs.aws.amazon.com/cli/latest/userguide/cli-configure-files.html)
-- [IAM CLI Reference](https://awscli.amazonaws.com/v2/documentation/api/latest/reference/iam/index.html)
-- [AWS CLI Examples](https://docs.aws.amazon.com/cli/latest/userguide/cli-usage-examples.html)
