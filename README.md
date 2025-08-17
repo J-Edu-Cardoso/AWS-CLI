@@ -137,34 +137,34 @@ aws iam get-policy-version --policy-arn arn:aws:iam::038946776283:policy/lab_pol
 
 > **Nota**: Substitua os nomes das imagens pelos arquivos reais do seu repositório
 
-![Imagem 1](1.png)
+![Imagem 1](1.jpg)
 *Descrição da primeira etapa*
 
-![Imagem 2](2.png)
+![Imagem 2](2.jpg)
 *Descrição da segunda etapa*
 
-![Imagem 3](3.png)
+![Imagem 3](3.jpg)
 *Descrição da terceira etapa*
 
-![Imagem 4](4.png)
+![Imagem 4](4.jpg)
 *Descrição da quarta etapa*
 
-![Imagem 5](5.png)
+![Imagem 5](5.jpg)
 *Descrição da quinta etapa*
 
-![Imagem 6](6.png)
+![Imagem 6](6.jpg)
 *Descrição da sexta etapa*
 
-![Imagem 7](7.png)
+![Imagem 7](7.jpg)
 *Descrição da sétima etapa*
 
-![Imagem 8](8.png)
+![Imagem 8](8.jpg)
 *Descrição da oitava etapa*
 
-![Imagem 9](9.png)
+![Imagem 9](9.jpg)
 *Descrição da nona etapa*
 
-![Imagem 10](10.png)
+![Imagem 10](10.jpg)
 *Descrição da décima etapa*
 
 ## ✅ Verificação de Sucesso
